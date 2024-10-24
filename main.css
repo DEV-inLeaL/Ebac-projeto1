@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: normal;
+    vertical-align: baseline;
+    font-weight: normal;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+ol,
+ul * {
+    list-style: none;
+    font-weight: normal;
+}
+table * {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-weight: normal;
+}
+
+button,
+input,
+textarea * {
+    font-family: normal;
+    font-weight: normal;
+}
+
+header,
+section h1,
+section h2,
+section h3,
+form button {
+    font-family: 'Bungee', sans-serif;
+}
+
+body,
+input,
+textarea, #legend-img {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #492402;
+    color: #ecf0f1;
+    
+}
+header h1 {
+    font-size: 30px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+header li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container p {
+    margin-bottom: 8px;
+}
+
+.brands-list li img,
+.brands-list li {
+    height: 24px;
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+section .store-front {
+    margin-right: 32px;
+    margin-bottom: 0;
+    margin-top: 46px;
+    height: 550px;
+    width: 900px;
+}
+
+section h2,
+section h3 {
+    color: #492402;
+    margin-bottom: 16px;
+    margin-top: 46px;
+}
+
+.social-links img {
+    height: 24px;
+    margin-right: 8px;
+}
+
+.social-links li {
+    display: inline;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    margin-bottom: 8px;
+    width: 320px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #182c61;
+    color: #ecf0f1;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #364d8d;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #182c61;
+    border: 2px solid #182c61;
+}
+
+footer {
+    color: #ecf0f1;
+    background-color: #492402;
+    padding: 16px 0;
+}
+
+#legend-img{
+    display: block;
+    margin-bottom: 50px;  
+}
